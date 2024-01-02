@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import base_views, question_views, answer_views
+from .views import base_views, question_views, answer_views, category_views
 from . import views
 
 app_name = 'bs'
@@ -10,6 +10,10 @@ urlpatterns = [
          base_views.index, name='index'),
     path('<int:question_id>/',
          base_views.detail, name='detail'),
+
+    path('category/welcome', category_views.welcome, name='welcome'),
+
+
 
     # question_views.py
     path('question/create/',
