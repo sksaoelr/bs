@@ -356,3 +356,14 @@
 @media (max-width: 922px) {
  .opilsol-N25 .bottom-btn .btnset-lg { padding: 0 5.4rem; max-width: 16rem; white-space: nowrap; }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.th-layout-main .opilsol-N1{
+  width: 80%;
+  margin: auto; /* 가운데 정렬을 위한 방법 */
+}
