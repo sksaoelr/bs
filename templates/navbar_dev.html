@@ -1,0 +1,110 @@
+<!-- 네비게이션바 -->
+{% load static %}
+<header class="opilsol-N1" data-bid="tvlq31brep">
+    <div class="header-container container-lg">
+      <div class="header-left">
+        <h1 class="header-title">
+          <a href="{% url 'main' %}">
+            <img src="{% static 'images/img_logo_white.png' %}" alt="로고">
+          </a>
+        </h1>
+      </div>
+      <div class="header-center">
+        <ul class="header-gnblist">
+          <li class="header-gnbitem">
+            <a class="header-gnblink" href={% url 'bs:welcome' %}>
+              <span>인사말</span>
+            </a>
+          </li>
+          <li class="header-gnbitem">
+            <a class="header-gnblink" href={% url 'bs:offline' %}>
+              <span>1:1 오프라인</span>
+            </a>
+          </li>
+          <li class="header-gnbitem">
+            <a class="header-gnblink" href="{% url 'bs:education' %}">
+              <span>교육목록</span>
+            </a>
+          </li>
+          <li class="header-gnbitem">
+            <a class="header-gnblink" href="javascript:void(0)">
+              <span>공지사항</span>
+            </a>
+          </li>
+          <li class="header-gnbitem">
+            <a class="header-gnblink" href="{% url 'bs:way_to_come' %}">
+              <span>오시는길</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <div class="header-utils">
+          <button class="btn-allmenu">
+            <img src="{% static 'icons/ico_menu3_white.svg' %}" alt="PC메뉴">
+          </button>
+          <button class="btn-momenu">
+            <img src="{% static 'icons/ico_menu3_white.svg' %}" alt="모바일메뉴">
+          </button>
+          <button class="btn-moclose">
+            <img src="{% static 'icons/ico_close_black.svg' %}" alt="닫기">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="header-fullmenu fullmenu-top">
+      <div class="fullmenu-wrapper">
+        <div class="fullmenu-head">
+          <h4 class="fullmenu-title">
+            <a href="javascript:void(0)">
+              <img src="{% static 'images/img_logo_black.png' %}' %}" alt="로고">
+            </a>
+          </h4>
+        </div>
+        <ul class="fullmenu-gnblist">
+          <li class="fullmenu-gnbitem">
+            <a class="fullmenu-gnblink" href="{% url 'bs:welcome' %}">
+              <span>인사말</span>
+            </a>
+          </li>
+          <li class="fullmenu-gnbitem">
+            <a class="fullmenu-gnblink" href="{% url 'bs:offline' %}">
+              <span>1:1 오프라인</span>
+            </a>
+          </li>
+          <li class="fullmenu-gnbitem">
+            <a class="fullmenu-gnblink" href="{% url 'bs:education' %}">
+              <span>교육목록</span>
+            </a>
+          </li>
+          <li class="fullmenu-gnbitem">
+            <a class="fullmenu-gnblink" href="javascript:void(0)">
+              <span>공지사항</span>
+            </a>
+          </li>
+          <li class="fullmenu-gnbitem">
+            <a class="fullmenu-gnblink" href="{% url 'bs:way_to_come' %}">
+              <span>오시는길</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="fullmenu-close">
+        <img src="{% static 'icons/ico_close_black.svg' %}" alt="닫기">
+      </button>
+    </div>
+    <div class="header-search fullmenu-top">
+      <div class="fullmenu-wrapper">
+        <div class="fullmenu-head">
+          <h4 class="fullmenu-title">
+            <a href="javascript:void(0)">
+              <img src="{% static 'images/img_logo_black.png' %}" alt="로고">
+            </a>
+          </h4>
+        </div>
+      </div>
+      <button class="fullmenu-close">
+        <img src="{% static 'icons/ico_close_black.svg' %}" alt="닫기">
+      </button>
+    </div>
+  </header>

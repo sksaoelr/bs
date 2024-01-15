@@ -2,21 +2,14 @@
 {% load bs_filter %}
 {% load static %}
 {% block content %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/template.css' %}">
-    <header class="masthead" style="padding: 10%">
-    <div class="container">
-        <div class="masthead-heading text-uppercase">Bs-Stock</div>
-    </div>
-</header>
-    <section class="page-section" id="services">
     <div class="opilsol-N14" data-bid="gxlQXAXQV1" id="">
       <div class="content-container">
         <div class="col-group container-md">
           <div class="left" style="text-align: center">
 {#            <h3 class="history-tit">A class 스윙​​<br>​<br></h3>#}
-              <h4 class="history-tit" style="margin-bottom: -1rem">A class 스윙​​</h4>
+              <h3 class="history-tit" style="margin-bottom: -3rem">A class 스윙​​</h3>
               <br>​<br>
-              <h4>(1 종목 10~30% 수익)</h4>
+              <h3>(1 종목 10~30% 수익)</h3>
           </div>
           <div class="right">
             <ul class="history-list">
@@ -54,10 +47,6 @@
                     </p>
                     <p>
                       <span class="date">-</span>
-                      <span th-hoverbox="true">손절 방법 스탑로</span>
-                    </p>
-                    <p>
-                      <span class="date">-</span>
                       <span th-hoverbox="true">주식 성공 or 실패 설명마인드 강의</span>
                     </p>
                   </li>
@@ -73,12 +62,12 @@
         <div class="col-group container-md">
           <div class="left" style="text-align: center">
 {#            <h3 class="history-tit">A class 스윙​​<br>​<br></h3>#}
-              <h3 class="history-tit" style="margin-bottom: -1rem">B class 단타​​</h3>
+              <h3 class="history-tit" style="margin-bottom: -3rem">B class 단타​​</h3>
               <br>​<br>
               <h3>(1~15% 수익)</h3>
           </div>
-          <div class="right">
-            <ul class="history-list">
+          <div class="right"  style="list-style-type:none">
+            <ul class="history-list" style="list-style-type:none">
               <li class="active">
 {#                <p class="year">(1 종목 10~30% 수익)</p>#}
                 <ul class="inner-list">
@@ -143,5 +132,4 @@
         </div>
       </div>
     </div>
-    </section>
 {% endblock %}
