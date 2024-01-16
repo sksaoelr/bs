@@ -18,7 +18,9 @@
 
 <div class="row main_img">
     <div class="col-md-5">
-        <img class="img-fluid" src="{% static 'images/main.jpg' %}" alt="..." />
+        <img class="img-fluid" src="{% static 'images/service_1.png' %}" onclick="OnloadImg(this.src)" alt="...">
+        <img class="img-fluid" src="{% static 'images/service_2.png' %}" onclick="OnloadImg(this.src)" alt="...">
+        <img class="img-fluid" src="{% static 'images/service_3.png' %}" onclick="OnloadImg(this.src)" alt="...">
     </div>
     <div class="col-md-7">
         <br>
@@ -55,4 +57,24 @@
         margin-bottom: 10px; /* 문단 간격 조절 */
     }
 </style>
+<script>
+
+function OnloadImg(url) {
+  var img = new Image();
+  img.src = url;
+  var img_width = img.width;
+  var win_width = img.width + 25;
+  var height = img.height + 30;
+
+  var OpenWindow = window.open('', '_blank', 'width=' + win_width + ', height=' + height + ', menubars=no, scrollbars=auto');
+
+  OpenWindow.document.write("<style>body{margin:0px; cursor:pointer;}</style><img src='" + url + "' width='" + win_width + "'>");
+
+  // 클릭 이벤트 추가하여 팝업 창 닫기
+  OpenWindow.document.body.onclick = function() {
+    window.close();
+  };
+}
+
+</script>
 {% endblock %}
