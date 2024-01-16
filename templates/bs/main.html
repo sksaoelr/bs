@@ -4,7 +4,7 @@
 {% block content %}
 <!-- Services-->
 <!-- Masthead-->
-<header class="masthead">
+<header class="masthead" style="background-image: url({% static 'assets/banner_test.png' %})">
     <div class="container">
         <div class="masthead-heading text-uppercase">Bs-Stock</div>
     </div>
@@ -13,87 +13,46 @@
     <div class="container" style="padding: 5%">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Bs-stock Service.</h3>
         </div>
-        <div class="row main_img">
-            <div class="col-md-4">
-{#                <span class="fa-stack fa-4x">#}
-{#                    <i class="fas fa-circle fa-stack-2x text-primary"></i>#}
-{#                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>#}
-{#                </span>#}
-                <img class="img-fluid" src="{% static 'images/m-sce2-img-2.jpg' %}" alt="..." />
 
-            </div>
-            <div class="col-md-8">
-                tset
-            </div>
-        </div>
-        <div class="row main_img">
-            <div class="col-md-4">
-{#                <span class="fa-stack fa-4x">#}
-{#                    <i class="fas fa-circle fa-stack-2x text-primary"></i>#}
-{#                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>#}
-{#                </span>#}
-                <img class="img-fluid" src="{% static 'images/m-sce2-img-2.jpg' %}" alt="..." />
-            </div>
-            <div class="col-md-8">
-                tset
-            </div>
-        </div>
-        <div class="row main_img">
-            <div class="col-md-12">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">Responsive Design</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </div>
-        </div>
+<div class="row main_img">
+    <div class="col-md-5">
+        <img class="img-fluid" src="{% static 'images/main.jpg' %}" alt="..." />
+    </div>
+    <div class="col-md-7">
+        <br>
+        <p style="color: red">Buy : 매수</p>
+        <p style="color: blue">Sell : 매도</p>
+        <br>
+        <p>ex) : 1000만원 1% 10만원</p><br>
+        <p>1천만원으로 하루에 2% 수익 20만원, 일주일에 5일 100만원, 한 달이면 400만원 입니다.</p>
+        <p>이렇게 각자의 투자금에 따라 복리 효과로 꾸준히 주식으로 수익을 내서 생각해야지</p>
+        <p>한 두 종목사서 한 번에 부자되는 확률은 극히 낮습니다.</p>
+        <p>9시부터 3시 20분까지 내가 참여할 수 있는 시간에</p>
+        <p>1~3종목 언제든 10~20분 정도 종목을 기다렸다가 수익을 내시면 됩니다.</p>
+    </div>
+</div>
     </div>
 </section>
-<!-- Team-->
-<section class="page-section bg-light" id="team">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/1.jpg' %}" alt="..." />
-                    <h4>Parveen Anand</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/2.jpg' %}" alt="..." />
-                    <h4>Diana Petersen</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/3.jpg' %}" alt="..." />
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-        </div>
-    </div>
-</section>
+    <style>
+    .main_img {
+        margin-top: 20px; /* 상단 여백 조절 */
+    }
+
+    .main_img img {
+        width: 100%; /* 이미지 가로 폭 100%로 조절 */
+        height: auto; /* 이미지 비율 유지 */
+    }
+
+    .main_img .col-md-7 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 20px; /* 상단 여백 조절 */
+    }
+
+    .main_img p {
+        margin-bottom: 10px; /* 문단 간격 조절 */
+    }
+</style>
 {% endblock %}

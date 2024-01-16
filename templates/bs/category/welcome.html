@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
 {% load bs_filter %}
 {% load static %}
-{% block content %} <!-- [E]opilsol-N1 -->
+{% block content %}
+<header class="masthead" style="background-image: url({% static 'images/eucation.png' %})">
+{#    <div class="container">#}
+{#        <div class="masthead-heading text-uppercase" style="color: black">Bs-Stock</div>#}
+{#    </div>#}
+</header>
 <div class="opilsol-N13" data-bid="qMlqyq6D43">
   <div class="content-container">
     <div class="content-group container-md">
@@ -11,11 +16,7 @@
       </div>
       <div class="txt-box">
         <div class="textset">
-{#              <h2 class="textset-tit">#}
-{#                <span class="br">안녕하세요</span>#}
-{#                <span class="br">우리는 혁신적인 솔루션과 탁월한 서비스를 통해</span> 고객들에게 최고의 경험을 제공하고자 합니다.#}
-{#              </h2>#}
-            <p class="textset-desc" style="color: black">
+            <p class="textset-desc" style="color: black;font-size: 1.5rem">
                 <p><h3>안녕하세요</h3></p>
                 <p>BS-stock 대표 입니다</p>
                 <p>주식 경력 10년차 주식 자격증 및 키움증권 투자 수익률 이달 상위 5% 로 </p>
