@@ -10878,7 +10878,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: black;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10920,7 +10920,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 6rem;
     transition: height 0.3s ease-in-out;
   }
   /*#mainNav.navbar-shrink {*/
@@ -10969,7 +10969,7 @@ header.masthead .masthead-heading {
 }
 
 header.sub_masthead {
-  margin-top: 5%;
+  margin-top: 15%;
   padding-top: 10rem;
   padding-bottom: 10rem;
   text-align: center;
@@ -11043,11 +11043,18 @@ header.offline_masthead .masthead-heading {
   }
 }
 
+@media (max-width: 440px){
+  .nav_mobile_img {
+    width: 25%;
+  }
+}
+
+
 @media (min-width: 768px) {
   header.sub_masthead {
-    margin-top: 4%;
-    padding-top: 30rem;
-    padding-bottom: 10.5rem;
+    margin-top: 10%;
+    padding-top: 21rem;
+    padding-bottom: 5.5rem;
   }
   header.sub_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11086,9 +11093,9 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.sub_masthead {
-    margin-top: 4%;
-    padding-top: 35rem;
-    padding-bottom: 10.5rem;
+    margin-top: 7%;
+    padding-top: 25rem;
+    padding-bottom: 13.5rem;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -11108,10 +11115,10 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.sub_masthead {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-right: 10%;
     margin-left: 10%;
-    padding-top: 42rem;
+    padding-top: 35rem;
     padding-bottom: 8.5rem;
   }
   header.sub_masthead .masthead-subheading {
