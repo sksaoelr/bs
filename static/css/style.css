@@ -335,3 +335,30 @@ body {
   width: 80%;
   margin: auto; /* 가운데 정렬을 위한 방법 */
 }
+
+
+.welcome_img {
+    margin-top: 15%; /* 상단 여백 조절 */
+}
+
+.welcome_img img {
+    width: 100%; /* 이미지 가로 폭 100%로 조절 */
+    height: 100%; /* 이미지 비율 유지 */
+}
+
+.welcome_img .col-md-7 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    /*{#margin-top: 20px; !* 상단 여백 조절 *!#}*/
+}
+
+.welcome_img p {
+    margin-bottom: 10px; /* 문단 간격 조절 */
+}
+
+@media (max-width: 768px) {
+  .welcome_img .img-fluid{
+    width: 100%; /* 이미지 가로 폭 100%로 조절 */
+    height: 300px; /* 이미지 비율 유지 */
+  }
+}

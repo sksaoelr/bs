@@ -667,6 +667,34 @@ progress {
     max-width: 1320px;
   }
 }
+
+
+@media (min-width: 1900px) {
+  .lg_container{
+    max-width: 1900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main_click {
+    width: 100px;
+  }
+  .main_col_img{
+    text-align: left;
+    margin-left: 15%;
+    }
+}
+@media (max-width: 768px) {
+  .main_col_img {
+    text-align: center;
+  }
+
+  .main_click {
+    width: 100px;
+  }
+}
+
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -11115,7 +11143,7 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.sub_masthead {
-    margin-top: 2%;
+    margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 35rem;
