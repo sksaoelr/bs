@@ -289,6 +289,52 @@
  .opilsol-N11 .content-group .txt-box .textset-desc { padding-right: 0; letter-spacing: var(--lt-sp); }
 }
 
+
+/* opilsol-N71 [UyLqyvNjnw] */
+.opilsol-N71 .content-container { padding: 5rem 0; }
+.opilsol-N71 .content-group { position: relative; display: flex; justify-content: space-between; align-items: center; }
+.opilsol-N71 .content-group .img-box { width: calc(50% + 4rem); height: 70rem; }
+.opilsol-N71 .content-group .img-box img { width: 100%; height: 100%; object-fit: cover; }
+.opilsol-N71 .content-group .txt-box { width: calc(50% - 14rem); padding: 0 2rem 0 0; }
+.opilsol-N71 .content-group .txt-box .textset { padding: 0; }
+.opilsol-N71 .content-group .txt-box .textset-tit { padding-bottom: 2rem; font-size: var(--ht-xs); line-height: var(--lh-h2); letter-spacing: var(--lt-sp); word-break: keep-all; }
+.opilsol-N71 .content-group .txt-box .textset-desc { line-height: var(--lh-h6); font-size: var(--lh-p3); color: var(--text-color3); letter-spacing: -0.1rem; word-break: keep-all; }
+.opilsol-N71 .content-group .txt-box .br { display: block; }
+.opilsol-N71 .container-md { max-width: 85%; margin: 0 auto }
+@media (max-width: 1366px) {
+ .opilsol-N71 .container-md { padding: 0 1.6rem; }
+ .opilsol-N71 .content-group .txt-box { width: calc(50% - 9rem); }
+ .opilsol-N71 .content-group .txt-box .textset-desc { padding-right: 2rem; }
+}
+@media (max-width: 748px) {
+ .opilsol-N71 .content-container { padding: 2rem 0; }
+ .opilsol-N71 .content-group .img-box { height: 55rem; }
+ .opilsol-N71 .content-group .txt-box .br { display: inline; }
+}
+@media (max-width: 922px) {
+ .opilsol-N71 .content-group { flex-direction: column; }
+ .opilsol-N71 .content-group .img-box { margin-bottom: 4rem; width: 100%; min-width: 32.8rem; height: 32rem; }
+ .opilsol-N71 .content-group .txt-box { padding: 0; width: 100%; }
+ .opilsol-N71 .content-group .txt-box .textset-tit { padding-bottom: 0; }
+ .opilsol-N71 .content-group .txt-box .textset-desc { padding-right: 0; letter-spacing: var(--lt-sp); }
+}
+
+@media (min-width: 1200px) {
+ .opilsol-N71 .content-container { padding: 0rem 0; }
+ .opilsol-N71 .content-group .img-box { height: 55rem; }
+ .opilsol-N71 .content-group .txt-box .br { display: inline; }
+}
+
+@media (min-width: 1900px) {
+ .opilsol-N71 .content-container { padding: 8rem 0; }
+ .opilsol-N71 .content-group .img-box { height: 55rem; }
+ .opilsol-N71 .content-group .txt-box .br { display: inline; }
+}
+
+
+.opilsol-N71 .contents-desc { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color2); }
+.opilsol-N71 .sub_title { margin-top: 1.2rem; font-size: 3rem; line-height: var(--lh-p1); color: var(--text-color2); }
+
 /* opilsol-N25 [vkLqywnisu] */
 .opilsol-N25 .content-container { margin-bottom: 8rem; padding: 8rem 0; }
 .opilsol-N25 .contant-header.textset { padding-top: 0; }
@@ -337,9 +383,9 @@ body {
 }
 
 
-.welcome_img {
-    margin-top: 15%; /* 상단 여백 조절 */
-}
+/*.welcome_img {*/
+/*    margin-top: 15%; !* 상단 여백 조절 *!*/
+/*}*/
 
 .welcome_img img {
     width: 100%; /* 이미지 가로 폭 100%로 조절 */

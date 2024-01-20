@@ -11026,8 +11026,8 @@ header.sub_masthead .masthead-heading {
 
 header.offline_masthead {
   margin-top: 10%;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
   text-align: center;
   color: #fff;
   /*background-image: url("../assets/banner_test.png");*/
@@ -11185,9 +11185,9 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.offline_masthead {
-    margin-top: 7%;
-    padding-top: 42rem;
-    padding-bottom: 4.5rem;
+    margin-top: -10%;
+    /*padding-top: 42rem;*/
+    padding-bottom: 6.5rem;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -11207,11 +11207,16 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.offline_masthead {
-    margin-top: 6%;
+    /*margin-top: 6%;*/
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    /*padding-top: 52rem;*/
+    /*padding-bottom: 4.5rem;*/
+
     margin-right: 10%;
     margin-left: 10%;
-    padding-top: 52rem;
-    padding-bottom: 4.5rem;
+    padding-top: 40rem;
+    padding-bottom: 0.5rem;
   }
   header.offline_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11559,3 +11564,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 .main_img {
   padding: 20px;
 }
+
+

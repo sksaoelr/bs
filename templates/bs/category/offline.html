@@ -2,33 +2,38 @@
 {% load bs_filter %}
 {% load static %}
 {% block content %}
-<header class="offline_masthead" style="background-image: url({% static 'images/offline.jpeg' %})">
-{#    <div class="container">#}
-{#        <div class="masthead-heading text-uppercase" style="color: black">Bs-Stock</div>#}
-{#    </div>#}
-</header>
-<div class="opilsol-N25" data-bid="vkLqywnisu">
-  <div class="content-container">
+<div class="opilsol-N11" data-bid="iglQYHtv6i" id="welcome">
+  <div class="content-container" style= "padding: 2rem 0;">
     <div class="container-md">
-      <div class="contant-header textset">
-        <h3 class="textset-tit">1:1 오프라인 강의</h3>
-      </div>
-      <div class="contant-body" style="text-align: left; padding-left: 10%; padding-right: 10%">
-        <p>
-            <span class="br">여러분들은 언제까지  뉴스 , 지인 , 유튜브 등 추천 종목으로 매수를 하실건가요 ? <br>
-            <span class="br">골프 수영 영어 등 내가 부족하고 관심있는 부분은 수업 받으시면서 </span> 왜 주식은 열심히 번 돈 각종 매체를 통해 좋다하니까 투자해서  수익 및 손실 반복 하면서 하시나요 ?<br></span>
-            <span class="br">연령대 상관없이 매수는 누구나 합니다. 하지만 매도는 참 어렵습니다</span>
-        </p>
-        <p>
-          <span class="br">수익이여도 매도 못하고 마이너스여도 매도를 못합니다. 그래서 한번 잘못 물리면 10년이상 또한 상장폐지 등 가져가야 할때도 있습니다.</span> 저는 매수해서  목표 수익률에 매도를 하는 수업이 메인입니다. <br> 인생에 있어서 선택은 도전입니다.<br>
-        </p>
-        <p>
-          <span class="br">
-            <span class="inline">선택의 순간뒤 1~3년 ~10년까지 그림을 그려봅니다</span> 남들이 모르는거를 해야 돈을 벌수있습니다. </span> 주식은 같은 자리에서 매수해도 누구는 수익 누구는 손실 입니다.<br> 멀리보면 누가더 승률이 높은지 생각 하면 되시구요 <br>
-            1:1 오프라인 교육을 통해 수익날수있는 기술이 있으면,<br>평생 수익 내실수 있습니다.
-        </p>
-      </div>
+<section class="esg_box">
+    <p class="f20">SUSTAINABILITY</p>
+            <h1 class="big_ttl">YG ESG</h1>
+        <div class="container">
+            <div class="txt_box">
+                <h2 class="xs_ttl">문화의 다양성을 존중하는</h2>
+                <span class="f44">YG STYLE</span>
+                <p class="f17">
+                    YG Entertainment는 문화의 다양성을 존중하는 'YG STYLE'을 기반으로 국내 ENTERTAINMENT 업계 ​리더를 넘어 글로벌 NO.1 MUSIC &amp; ENTERTAINMENT COMPANY로 성장하고자 하며, 이러한 성장의 과정​ 속에서 ESG 가치를 실현해 나갈 계획입니다. ​
+                    <br><br>
+                    특히, 핵심 비즈니스 모델인 음악과 다양한 미디어 콘텐츠를 포함한 모든 경영활동에서 효과적인 ESG​ 경영을 실천하기 위한 체계를 구축하여 사회와 환경의 지속가능성에 기여할 수 있도록 최선의 노력을 ​다하겠습니다.
+                </p>
+            </div>
+        </div>
+        <div class="right_img">
+            <img src="{% static 'images/offline.jpeg' %}">
+        </div>
+    </section>
     </div>
-  </div>
+    </div>
 </div>
 {% endblock %}
+
+<style>
+
+
+.esg_box {
+    position: relative;
+    margin: 78px 0 120px;
+    min-height: 601px;
+}
+</style>
