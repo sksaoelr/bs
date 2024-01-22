@@ -671,7 +671,7 @@ progress {
 
 @media (min-width: 1900px) {
   .lg_container{
-    max-width: 1900px;
+    max-width: 80%;
   }
 }
 
