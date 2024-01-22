@@ -18,10 +18,10 @@
 .hooms-N35 .contents-traffic-list { padding: 4rem 0; border-top: 1px solid gray; border-bottom: 1px solid gray; }
 .hooms-N35 .contents-traffic-item { width: 100%; }
 .hooms-N35 .contents-traffic-item+.contents-traffic-item { margin-top: 4rem; }
-.hooms-N35 .contents-ico { display: flex; align-items: center; font-size: 2rem; font-weight: 500; }
+.hooms-N35 .contents-ico { display: flex; align-items: center; font-size: 2rem; font-weight: 500; font-family: sans-serif;}
 .hooms-N35 .contents-figure { display: flex; align-items: center; width: 2.4rem; height: 2.4rem; margin: 0; margin-right: 0.8rem; }
 .hooms-N35 .contents-figure img { width: 100%; height: 100%; object-fit: cover; }
-.hooms-N35 .contents-desc { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color2); }
+.hooms-N35 .contents-desc { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color1); font-family: sans-serif;}
 .hooms-N35 .contents-btn { margin-top: 4rem; text-align: center; }
 .hooms-N35 .contents-btn .btnset { min-width: 26rem; }
 @media (max-width: 992px) {
@@ -49,7 +49,7 @@
 .opilsol-N13 .content-group .txt-box { position: absolute; right: 0; bottom: 0; padding: 8rem 4rem 8rem 8rem; width: calc(50% + 12rem); height: 71.3rem; background-color: var(--white); }
 .opilsol-N13 .content-group .txt-box .textset { padding: 0; }
 .opilsol-N13 .content-group .txt-box .textset-tit { font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: 500; letter-spacing: var(--lt-sp); word-break: keep-all; }
-.opilsol-N13 .content-group .txt-box .textset-desc { margin-top: 5rem; font-size: var(--lh-p3); color: var(--text-color3); }
+.opilsol-N13 .content-group .txt-box .textset-desc { margin-top: 5rem; font-size: var(--lh-p3); color: var(--text-color1); }
 .opilsol-N13 .content-group .txt-box .textset-desc>p { margin-bottom: 1.5rem; letter-spacing: -0.15rem; word-break: keep-all; }
 .opilsol-N13 .content-group .txt-box .textset-desc>.bottom-txt { margin-top: 4.5rem; font-size: var(--fs-h5); font-weight: 600; color: var(--text-color1); }
 .opilsol-N13 .content-group .txt-box .br { display: block; }
