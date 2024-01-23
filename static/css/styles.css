@@ -11052,6 +11052,34 @@ header.offline_masthead .masthead-heading {
 }
 
 
+header.way_to_come_masthead {
+  margin-top: 10%;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+  /*background-image: url("../assets/banner_test.png");*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.way_to_come_masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.way_to_come_masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 37rem;
@@ -11143,7 +11171,7 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.sub_masthead {
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 35rem;
@@ -11207,7 +11235,7 @@ header.offline_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.offline_masthead {
-    /*margin-top: 6%;*/
+    margin-top: -6%;
     /*margin-right: 10%;*/
     /*margin-left: 10%;*/
     /*padding-top: 52rem;*/
@@ -11229,6 +11257,75 @@ header.offline_masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header.way_to_come_masthead {
+    margin-top: 10%;
+    padding-top: 35rem;
+    padding-bottom: 8.5rem;
+  }
+  header.way_to_come_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.way_to_come_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.way_to_come_masthead {
+    margin-top: -10%;
+    /*padding-top: 42rem;*/
+    padding-bottom: 6.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  header.way_to_come_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.way_to_come_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  header.way_to_come_masthead {
+    margin-top: -6%;
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    /*padding-top: 52rem;*/
+    /*padding-bottom: 4.5rem;*/
+
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 40rem;
+    padding-bottom: 0.5rem;
+  }
+  header.way_to_come_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.way_to_come_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 10rem;
   }
 }
 

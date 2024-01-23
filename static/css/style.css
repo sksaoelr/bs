@@ -93,7 +93,7 @@
 .opilsol-N14 .col-group .history-list .inner-list>li:last-child { margin-bottom: 1.8rem; }
 .opilsol-N14 .col-group .history-list .inner-list>li>p { display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 2.1rem; }
 .opilsol-N14 .col-group .history-list .inner-list .date { display: block; margin-right: 3rem; width: 4.1rem; text-align: right; font-size: var(--fs-p1); font-weight: 600; font-family: var(--ff-po); }
-.opilsol-N14 .col-group .history-list .inner-list .date+span { display: block; flex: 1 1 0; font-size: var(--fs-p1); letter-spacing: var(--lt-sp); color: var(--text-color3); word-break: keep-all; }
+.opilsol-N14 .col-group .history-list .inner-list .date+span { display: block; flex: 1 1 0; font-size: var(--fs-p1); letter-spacing: var(--lt-sp); color: var(--text-color1); word-break: keep-all; }
 @media (max-width: 1024px) {
  .opilsol-N14 .content-container { padding: 3rem 0; }
  .opilsol-N14 .container-md { padding: 0 1.6rem; }
@@ -333,6 +333,7 @@
 
 
 .opilsol-N71 .contents-desc { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color2); }
+.opilsol-N71 .welcome_text { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color1); }
 .opilsol-N71 .sub_title { margin-top: 1.2rem; font-size: 2.7rem; line-height: var(--lh-p1); color: var(--text-color2); }
 
 /* opilsol-N25 [vkLqywnisu] */
@@ -408,3 +409,11 @@ body {
     height: 300px; /* 이미지 비율 유지 */
   }
 }
+ .red-underlined {
+     text-decoration-color:red;
+    text-decoration-line:underline;
+ }
+
+ .welcome_text {
+   color: black;
+ }
