@@ -11023,6 +11023,32 @@ header.sub_masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+header.welcome_masthead {
+  margin-top: 10%;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+  /*background-image: url("../assets/banner_test.png");*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.welcome_masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.welcome_masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 header.offline_masthead {
   margin-top: 10%;
@@ -11050,7 +11076,6 @@ header.offline_masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 
 header.way_to_come_masthead {
   margin-top: 10%;
@@ -11192,9 +11217,109 @@ header.way_to_come_masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
+  header.welcome_masthead {
+    margin-top: 10%;
+    padding-top: 30rem;
+    padding-bottom: 8.5rem;
+  }
+  header.welcome_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.welcome_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.welcome_masthead {
+    margin-top: -10%;
+    /*padding-top: 42rem;*/
+    padding-bottom: 6.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  header.welcome_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.welcome_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
+  }
+}
+
+@media (min-width: 1900px) {
+  header.welcome_masthead {
+    margin-top: -7%;
+    margin-bottom: -5%;
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    /*padding-top: 52rem;*/
+    /*padding-bottom: 4.5rem;*/
+
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 30rem;
+    /*padding-bottom: 0.5rem;*/
+  }
+  header.welcome_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.welcome_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
+  }
+}
+
+@media (min-width: 2400px) {
+  header.welcome_masthead {
+    margin-top: -5%;
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    /*padding-top: 52rem;*/
+    /*padding-bottom: 4.5rem;*/
+
+    margin-right: 10%;
+    margin-left: 10%;
+    /*padding-top: 40rem;*/
+    padding-bottom: 10.5rem;
+  }
+  header.welcome_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.welcome_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+  }
+}
+
+@media (min-width: 768px) {
   header.offline_masthead {
     margin-top: 10%;
-    padding-top: 35rem;
+    padding-top: 30rem;
     padding-bottom: 8.5rem;
   }
   header.offline_masthead .masthead-subheading {
@@ -11207,7 +11332,8 @@ header.way_to_come_masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
   }
 }
 
@@ -11229,13 +11355,41 @@ header.way_to_come_masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
   }
 }
 
 @media (min-width: 1900px) {
   header.offline_masthead {
-    margin-top: -6%;
+    margin-top: -10%;
+    /* margin-right: 10%; */
+    /* margin-left: 10%; */
+    /* padding-top: 52rem; */
+    /* padding-bottom: 4.5rem; */
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 35rem;
+    padding-bottom: 4.5rem;
+  }
+  header.offline_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.offline_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
+  }
+}
+
+@media (min-width: 2400px) {
+  header.offline_masthead {
+    /*margin-top: -2%;*/
     /*margin-right: 10%;*/
     /*margin-left: 10%;*/
     /*padding-top: 52rem;*/
@@ -11263,8 +11417,8 @@ header.way_to_come_masthead .masthead-heading {
 @media (min-width: 768px) {
   header.way_to_come_masthead {
     margin-top: 10%;
-    padding-top: 35rem;
-    padding-bottom: 8.5rem;
+    padding-top: 30rem;
+    padding-bottom: 5.5rem;
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11276,7 +11430,8 @@ header.way_to_come_masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
   }
 }
 
@@ -11284,7 +11439,7 @@ header.way_to_come_masthead .masthead-heading {
   header.way_to_come_masthead {
     margin-top: -10%;
     /*padding-top: 42rem;*/
-    padding-bottom: 6.5rem;
+    /*padding-bottom: 6.5rem;*/
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -11298,13 +11453,14 @@ header.way_to_come_masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
   }
 }
 
 @media (min-width: 1900px) {
   header.way_to_come_masthead {
-    margin-top: -6%;
+    margin-top: -8%;
     /*margin-right: 10%;*/
     /*margin-left: 10%;*/
     /*padding-top: 52rem;*/
@@ -11312,8 +11468,8 @@ header.way_to_come_masthead .masthead-heading {
 
     margin-right: 10%;
     margin-left: 10%;
-    padding-top: 40rem;
-    padding-bottom: 0.5rem;
+    /*padding-top: 40rem;*/
+    /*padding-bottom: 0.5rem;*/
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11325,7 +11481,30 @@ header.way_to_come_masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 10rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
+  }
+}
+
+@media (min-width: 2400px) {
+  header.way_to_come_masthead {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 35rem;
+    /*padding-bottom: 0.5rem;*/
+  }
+  header.way_to_come_masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.way_to_come_masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    /*margin-bottom: 4rem;*/
+    margin: auto;
   }
 }
 

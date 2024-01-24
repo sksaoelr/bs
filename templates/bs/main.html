@@ -27,12 +27,11 @@
             <img class="img-fluid" src="{% static 'images/service_3.png' %}" onclick="OnloadImg(this.src)" alt="...">
         </div>
         <div class="col-md-7">
-            <br>
             <p style="color: red">Buy : 매수</p>
             <p style="color: blue">Sell : 매도</p>
             <br>
             <p>ex) : <span class="red-underlined">&nbsp;1000만원&nbsp;</span> <span style="color: red">1%</span> <span class="red-underlined">&nbsp;10만원</span></p><br>
-            <p><span class="red-underlined">1천만원</span>으로 하루에 &nbsp;2% 수익&nbsp; <span class="red-underlined">20만원</span>, 일주일에 5일 &nbsp;100만원, 한 달이면 &nbsp;400만원 입니다.</p>
+            <p><span class="red-underlined">1천만원</span>으로 하루에 &nbsp;<span style="color: red">2%</span> 수익&nbsp; <span class="red-underlined">20만원</span>, 일주일에 5일 &nbsp;<span class="red-underlined">100만원</span>, 한 달이면 &nbsp;<span class="red-underlined">400만원</span> 입니다.</p>
             <p>이렇게 각자의 투자금에 따라 복리 효과로 꾸준히 주식으로 수익을 내서 생각해야지</p>
             <p>1 ~ 2 종목사서 한번에 부자되는 확률은 극히 낮습니다.</p>
             <p>9시부터 &nbsp;3시 &nbsp;20분까지 내가 참여&nbsp;할수있는 시간에</p>
@@ -54,7 +53,9 @@
     .main_img .col-md-7 {
         font-weight: bold;
         font-size: 1.5rem;
-        margin-top: 20px; /* 상단 여백 조절 */
+        {#margin-top: 20px; /* 상단 여백 조절 */#}
+        margin: auto;
+        padding: 2%;
     }
 
     .main_img p {
