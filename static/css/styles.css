@@ -11318,7 +11318,7 @@ header.way_to_come_masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.offline_masthead {
-    margin-top: 10%;
+    margin-top: -6%;
     padding-top: 30rem;
     padding-bottom: 8.5rem;
   }
@@ -11339,9 +11339,9 @@ header.way_to_come_masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.offline_masthead {
-    margin-top: -10%;
+    margin-top: -5%;
     /*padding-top: 42rem;*/
-    padding-bottom: 6.5rem;
+    padding-bottom: 10rem;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -11357,20 +11357,21 @@ header.way_to_come_masthead .masthead-heading {
     line-height: 4.5rem;
     /*margin-bottom: 4rem;*/
     margin: auto;
+  }
+  .welcome_img .col-md-7{
+      font-weight: bold;
+      font-size: 1.5rem;
+      padding-left: 10%;
   }
 }
 
 @media (min-width: 1900px) {
   header.offline_masthead {
-    margin-top: -10%;
-    /* margin-right: 10%; */
-    /* margin-left: 10%; */
-    /* padding-top: 52rem; */
-    /* padding-bottom: 4.5rem; */
+    margin-top: -7%;
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 35rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 10rem;
   }
   header.offline_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11385,20 +11386,18 @@ header.way_to_come_masthead .masthead-heading {
     /*margin-bottom: 4rem;*/
     margin: auto;
   }
+    .welcome_img .col-md-7{
+      font-weight: bold;
+      font-size: 1.5rem;
+      padding-left: 10%;
+  }
 }
 
 @media (min-width: 2400px) {
   header.offline_masthead {
-    /*margin-top: -2%;*/
-    /*margin-right: 10%;*/
-    /*margin-left: 10%;*/
-    /*padding-top: 52rem;*/
-    /*padding-bottom: 4.5rem;*/
-
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-top: -9%;
     padding-top: 40rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 5rem;
   }
   header.offline_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11412,13 +11411,17 @@ header.way_to_come_masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
+  .welcome_img img{
+    width: 100%;
+    height: 76%;
+  }
 }
 
 @media (min-width: 768px) {
   header.way_to_come_masthead {
     margin-top: 10%;
-    padding-top: 30rem;
-    padding-bottom: 5.5rem;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11437,11 +11440,11 @@ header.way_to_come_masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.way_to_come_masthead {
-    margin-top: -10%;
-    /*padding-top: 42rem;*/
-    /*padding-bottom: 6.5rem;*/
+    margin-top: 5%;
+    padding-bottom: 15rem;
     margin-left: 10%;
     margin-right: 10%;
+}
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11460,16 +11463,9 @@ header.way_to_come_masthead .masthead-heading {
 
 @media (min-width: 1900px) {
   header.way_to_come_masthead {
-    margin-top: -8%;
-    /*margin-right: 10%;*/
-    /*margin-left: 10%;*/
-    /*padding-top: 52rem;*/
-    /*padding-bottom: 4.5rem;*/
-
+    margin-top: -2%;
+    padding-bottom: 15rem;
     margin-right: 10%;
-    margin-left: 10%;
-    /*padding-top: 40rem;*/
-    /*padding-bottom: 0.5rem;*/
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11491,7 +11487,8 @@ header.way_to_come_masthead .masthead-heading {
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 35rem;
-    /*padding-bottom: 0.5rem;*/
+    padding-bottom: 13.5rem;
+    margin-top: -5%;
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;
