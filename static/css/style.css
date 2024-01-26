@@ -40,46 +40,7 @@
  .hooms-N35 .root_daum_roughmap .wrap_map { height: 25rem; }
 }
 
-/* opilsol-N13 [qMlqyq6D43] */
-.opilsol-N13 .content-container { margin: 5% }
-.opilsol-N13 .content-group { position: relative; }
-.opilsol-N13 .content-group .img-box { width: calc(50% + 16rem); height: 81.3rem; }
-.opilsol-N13 .content-group .img-box .mobile-img { display: none; }
-.opilsol-N13 .content-group .img-box img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
-.opilsol-N13 .content-group .txt-box { position: absolute; right: 0; bottom: 0; padding: 8rem 4rem 8rem 8rem; width: calc(50% + 12rem); height: 71.3rem; background-color: var(--white); }
-.opilsol-N13 .content-group .txt-box .textset { padding: 0; }
-.opilsol-N13 .content-group .txt-box .textset-tit { font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: 500; letter-spacing: var(--lt-sp); word-break: keep-all; }
-.opilsol-N13 .content-group .txt-box .textset-desc { margin-top: 5rem; font-size: var(--lh-p3); color: var(--text-color1); }
-.opilsol-N13 .content-group .txt-box .textset-desc>p { margin-bottom: 1.5rem; letter-spacing: -0.15rem; word-break: keep-all; }
-.opilsol-N13 .content-group .txt-box .textset-desc>.bottom-txt { margin-top: 4.5rem; font-size: var(--fs-h5); font-weight: 600; color: var(--text-color1); }
-.opilsol-N13 .content-group .txt-box .br { display: block; }
-@media (max-width: 1024px) {
- .opilsol-N13 .content-container { padding: 5rem 0; margin-bottom: 2rem; }
- .opilsol-N13 .container-md { padding: 0 1.6rem; }
- .opilsol-N13 .content-group { display: flex; flex-direction: column; }
- .opilsol-N13 .content-group .img-box { width: 100%; height: 38rem; }
- .opilsol-N13 .content-group .txt-box { position: static; width: 100%; height: auto; }
-}
-@media (max-width: 922px) {
- .opilsol-N13 .content-group .img-box .pc-img { display: none; }
- .opilsol-N13 .content-group .img-box .mobile-img { display: block; }
- .opilsol-N13 .content-group .txt-box { padding: 1.6rem; }
- .opilsol-N13 .content-group .txt-box .textset-tit { font-size: var(--fs-h4); line-height: var(--lh-h4); letter-spacing: -0.1rem; }
- .opilsol-N13 .content-group .txt-box .textset-desc { margin-top: 4rem; }
- .opilsol-N13 .content-group .txt-box .br { display: inline; }
-}
 
-/* opilsol-N34 [cKlqxAXQu4] */
-.opilsol-N34 .content-container { margin: 8rem auto 0; }
-.opilsol-N34 .content-tit .textset-eu { margin-bottom: 2rem; text-align: center; font-size: var(--fs-h6); font-family: var(--ff-po); font-weight: 500; color: var(--text-color4); }
-.opilsol-N34 .content-tit .textset-tit { text-align: center; line-height: var(--ht-lg); font-size: var(--ht-lg); }
-@media (max-width: 922px) {
- .opilsol-N34 .content-container { margin: 5rem auto 0; }
- .opilsol-N34 .content-md { padding: 0 1.6rem; }
- .opilsol-N34 .content-tit { padding: 4rem 0 0; }
- .opilsol-N34 .content-tit .textset-eu { margin-bottom: 1rem; }
- .opilsol-N34 .content-tit .textset-tit { font-size: 3.6rem; }
-}
 /* opilsol-N14 [gxlQXAXQV1] */
 .opilsol-N14 .content-container { padding: 5rem 0; }
 .opilsol-N14 .col-group { display: flex; justify-content: flex-start; align-items: flex-start; }
@@ -329,14 +290,26 @@
 @media (min-width: 1900px) {
  .opilsol-N71 .content-container { padding: 8rem 0; }
  .opilsol-N71 .content-group .img-box { height: 55rem; }
+ .opilsol-N71 .content-group .img-box img {
+    width: 87%;
+    height: 100%;
+    padding-left: 30%;
+    }
  .opilsol-N71 .content-group .txt-box .br { display: inline; }
 }
 
+@media (min-width: 2400px) {
+.opilsol-N71 .content-group .img-box img {
+    width: 87%;
+    height: 100%;
+    padding-left: 30%;
+    }
+}
 
 .opilsol-N71 .contents-desc { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color1); }
 .opilsol-N71 .contents-offline-desc { font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color1); }
 .opilsol-N71 .welcome_text { margin-top: 1.2rem; font-size: var(--fs-p1); line-height: var(--lh-p1); color: var(--text-color1); }
-.opilsol-N71 .sub_title { margin-top: 1.2rem; font-size: 2.7rem; line-height: var(--lh-p1); color: var(--text-color1); }
+.opilsol-N71 .sub_title { font-size: 2.7rem; line-height: var(--lh-p1); color: var(--text-color1); }
 
 /* opilsol-N25 [vkLqywnisu] */
 .opilsol-N25 .content-container { margin-bottom: 8rem; padding: 8rem 0; }
@@ -410,7 +383,7 @@ body {
   }
   .welcome_img img {
      width: 100%; /* 이미지 가로 폭 100%로 조절 */
-     height: 76%; /* 이미지 비율 유지 */
+     height: 70%; /* 이미지 비율 유지 */
  }
 }
 
