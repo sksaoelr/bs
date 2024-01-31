@@ -20,3 +20,8 @@ def way_to_come(request):
     # main_context = get_object_or_404()
     context = {'welcome': ''}
     return render(request, 'bs/category/way_to_come.html', context)
+
+def notice(request):
+    # main_context = get_object_or_404()
+    context = {'welcome': ''}
+    return render(request, 'bs/category/notice.html', context)

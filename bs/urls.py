@@ -15,6 +15,7 @@ urlpatterns = [
     path('category/education', category_views.education, name='education'),
     path('category/offline', category_views.offline, name='offline'),
     path('category/way_to_come', category_views.way_to_come, name='way_to_come'),
+path('category/notice', category_views.notice, name='notice'),
 
 
 
