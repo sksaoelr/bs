@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .mb_view{
+      display: unset !important;
+    }
+    .pc_view{
+      display: none !important;
+    }
+    .opilsol-N14 .col-group .history-list .inner-list>li>p.mb_view{
+        display: flex !important;
+    }
+}
+@media (min-width: 768px) {
+    .mb_view{
+      display: none !important;
+    }
+    .pc_view{
+      display: unset !important;
+    }
+    .opilsol-N14 .col-group .history-list .inner-list>li>p.pc_view{
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1900px) {
+    .instagram_link{
+        display: none;
+    }
+}
+
+@media (min-width: 1900px) {
+    .instagram_link{
+        display: block;
+    }
+}
