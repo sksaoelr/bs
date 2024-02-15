@@ -676,24 +676,34 @@ progress {
 }
 
 @media (min-width: 768px) {
-  .main_click {
-    width: 100px;
-  }
-  .main_col_img{
+  .main_col_img_pc {
     text-align: left;
     margin-left: 15%;
-    }
-}
-@media (max-width: 768px) {
-  .main_col_img {
-    text-align: center;
   }
-
+  .main_col_img_mb {
+    display: none;
+  }
   .main_click {
     width: 100px;
   }
 }
 
+@media (max-width: 767px) {
+  .main_col_img_pc {
+    display: none;
+  }
+  .main_col_img_mb {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main_click_wrap {
+    width: 33.3%;
+    text-align: center;
+  }
+  .main_click {
+    width: 100px;
+  }
+}
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -11444,7 +11454,6 @@ header.way_to_come_masthead .masthead-heading {
     padding-bottom: 15rem;
     margin-left: 10%;
     margin-right: 10%;
-}
   }
   header.way_to_come_masthead .masthead-subheading {
     font-size: 2.25rem;

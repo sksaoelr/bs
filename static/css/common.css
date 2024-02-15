@@ -1,4 +1,16 @@
-@media (max-width: 768px) {
+/* pc, mb 보여주는 텍스트 분리 */
+@media (min-width: 768px) {
+  .mb_view{
+    display: none !important;
+  }
+  .pc_view{
+    display: unset !important;
+  }
+  .opilsol-N14 .col-group .history-list .inner-list>li>p.pc_view{
+      display: flex !important;
+  }
+}
+@media (max-width: 767px) {
     .mb_view{
       display: unset !important;
     }
@@ -9,26 +21,27 @@
         display: flex !important;
     }
 }
-@media (min-width: 768px) {
-    .mb_view{
-      display: none !important;
-    }
-    .pc_view{
-      display: unset !important;
-    }
-    .opilsol-N14 .col-group .history-list .inner-list>li>p.pc_view{
-        display: flex !important;
-    }
-}
 
-@media (max-width: 1900px) {
-    .instagram_link{
+/* pc에서만 우측 상단에 인스타그램 링크 버튼 show */
+@media (min-width: 1900px) {
+  .instagram_link_pc{
+      display: block;
+  }
+}
+@media (max-width: 1899px) {
+    .instagram_link_pc{
         display: none;
     }
 }
 
-@media (min-width: 1900px) {
-    .instagram_link{
-        display: block;
-    }
+/* mb에서만 메인 클릭 옆 인스타그램 링크 버튼 show */
+@media (min-width: 768px) {
+  .instagram_link_mb{
+      display: none;
+  }
+}
+@media (max-width: 767px) {
+  .instagram_link_mb{
+      display: block;
+  }
 }
