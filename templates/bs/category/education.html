@@ -150,5 +150,103 @@
         </div>
       </div>
     </div>
+    <div class="opilsol-N14 pc_view" data-bid="gxlQXAXQV1" id="">
+      <div class="content-container">
+        <div class="col-group container-md">
+          <div class="left" style="text-align: center">
+            <div style="display: flex;">
+              <div style="width: 50%;"></div>
+              <div style="width: 50%;"></div>
+              <div style="width: 50%;">
+                <img class="img-fluid main_click" src="{% static 'images/sub/click.png' %}" alt="...">
+              </div>
+              <div style="width: 50%;"></div>
+            </div>
+            <div class="left" style="text-align: right; padding-top:2rem;">
+              <img class="img-fluid-75" src="/static/images/service_1.png" onclick="OnloadImg(this.src)" alt="...">
+              <img class="img-fluid-75" src="/static/images/service_2.png" onclick="OnloadImg(this.src)" alt="...">
+              <img class="img-fluid-75" src="/static/images/service_3.png" onclick="OnloadImg(this.src)" alt="...">
+            </div>
+          </div>
+          <div class="right">
+            <div style="height: 75px;">
+            </div>
+            <ul class="history-list">
+              <li class="active" style="border-left: 0px solid white;">
+                <ul class="inner-list" style="margin-left:-5%">
+                  <li class="p-tag">
+                    <div class="col-md-12">
+                      <p style="color: red">
+                        <span class="date"></span>
+                        <span style="color: red">Buy : 매수</span>
+                      </p>
+                      <p style="color: blue">
+                        <span class="date"></span>
+                        <span style="color: blue">Sell : 매도</span>
+                      </p>
+                      <br>
+                      <p>
+                        <span class="date"></span>
+                        <span> 단타 ex) : <span class="red-underlined">&nbsp;1000만원&nbsp;</span> <span style="color: red">1%</span>로는 <span class="red-underlined">&nbsp;10만원</span></span>
+                      </p><br>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">1천만원으로 매일 <span style="color: red">3%</span></span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">1 일 수익 <span class="red-underlined">30만원</span></span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">5 일 수익 <span class="red-underlined">150만원</span></span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">1 달 수익 <span class="red-underlined">600만원</span></span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">1 년 수익 <span class="red-underlined">7200만원</span> 입니다.</span>
+                      </p><br>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">이렇게 복리 효과로 생각하면서 주식 하시는분들은 거의 없습니다.</span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">9시부터 15:20분 까지 내가 참여 할수있는 시간에</span>
+                      </p>
+                      <p>
+                        <span class="date"></span>
+                        <span th-hoverbox="true">1~3 종목 언제든 종목을 기다렸다가 매매하시면 됩니다.</span>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
+    <script>
+      function OnloadImg(url) {
+        var img = new Image();
+        img.src = url;
+        var img_width = img.width;
+        var win_width = img.width + 25;
+        var height = img.height + 30;
+      
+        var OpenWindow = window.open('', '_blank', 'width=' + win_width + ', height=' + height + ', menubars=no, scrollbars=auto');
+      
+        OpenWindow.document.write("<style>body{margin:0px; cursor:pointer;}</style><img src='" + url + "' width='" + win_width + "'>");
+      
+        // 이미지 클릭 이벤트 추가하여 팝업 창 닫기
+        OpenWindow.document.getElementsByTagName('img')[0].onclick = function() {
+          OpenWindow.close();
+        };
+      }
+    </script>
 {% endblock %}
